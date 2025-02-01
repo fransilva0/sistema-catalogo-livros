@@ -1,0 +1,12 @@
+{
+  "name": "sistema-catalogo-livros",
+  "version": "1.0.0",
+  "description": "Sistema de adição, edição, visualização e deleção de livros.",
+  "license": "MIT",
+  "author": "Francileudo Oliveira",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
