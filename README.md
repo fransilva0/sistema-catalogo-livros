@@ -48,7 +48,11 @@ Este projeto é um sistema de catálogo de livros desenvolvido em Node.js.Ele pe
 As seguintes ferramentas e tecnologias foram usadas na construção do projeto:
 
 - [NodeJs](https://nodejs.org/pt)
-- [JSON](https://www.json.org/json-en.html)
+- [EJS](https://ejs.co)
+- [ExpressJS](https://expressjs.com)
+- [PostgreSQL](https://www.postgresql.org)
+- [Prisma](https://www.prisma.io)
+- [Typescript](https://www.typescriptlang.org)
 
 ## :white_check_mark: Pré requisitos ##
 
@@ -65,9 +69,6 @@ $ cd sistema-catalogo-livros
 
 # Instale as dependências
 $ npm install
-
-# Para iniciar o projeto
-$ node index.js
 
 ```
 
