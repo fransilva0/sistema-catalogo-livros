@@ -1,0 +1,22 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Diretório do ambiente
+.env
+
+# Dependências do Node
+/node_modules
+
+# Build output
+/dist
+/build
+
+# Editor de projeto
+.idea/
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
