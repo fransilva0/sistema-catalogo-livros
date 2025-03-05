@@ -1,0 +1,28 @@
+<main class="container mx-auto p-8">
+    <h1 class="text-3xl font-bold text-blue-600 mb-4">Biblioteca</h1>
+
+    <div class="mb-4 flex justify-between items-center">
+        <div class="text-lg text-gray-700">
+            Total de Livros: <span class="font-bold"><%= books.length %></span>
+        </div>
+        <a href="/biblioteca/novo" class="bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-700 transition">
+            Novo Livro
+        </a>
+    </div>
+
+    <div class="overflow-x-auto bg-white shadow-md rounded-lg p-4">
+        <% for (const book of books) { %>
+        <div class="flex items-start mb-4">
+            <img src="<%= book.bookImg %>" alt="<%= book.title %>" class="w-32 h-auto mr-4">
+            <div>
+                <h2 class="text-lg font-semibold"><%= book.title %></h2>
+                <p><strong>Autor:</strong> <%= book.author %></p>
+                <p><strong>Descrição:</strong> <%= book.description %></p>
+                <p><strong>Idioma:</strong> <%= book.language %></p>
+                <p><strong>Gênero:</strong> <%= book.gender %></p>
+            </div>
+        </div>
+        <% } %>
+    </div>
+    
+</main>
